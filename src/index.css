@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+}
+
+footer h5, #main {
+  margin: 1rem;
+}
+footer {
+  width: 100%;
+  background: #7aad83;
+}

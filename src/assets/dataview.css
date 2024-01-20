@@ -1,0 +1,15 @@
+.p-dataview img {
+    width: 15rem;
+}
+.p-dataview .productItem {
+    margin: 1rem;
+    width: 15rem;
+    cursor: pointer;
+    border: none;
+}
+.p-dataview p {
+    text-wrap: wrap;
+}
+.p-tag {
+    margin-top: 1rem;
+}

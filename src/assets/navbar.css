@@ -1,0 +1,7 @@
+.p-tabmenu-nav, .p-tabmenuitem, .p-menuitem-link {
+    background: #A8DEB2 !important;
+  }
+.p-menuitem-text, .p-menuitem-icon {
+    color: black;
+    margin: 0.4rem;
+}
