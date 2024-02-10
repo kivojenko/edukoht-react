@@ -9,5 +9,18 @@ footer h5, #main {
 }
 footer {
   width: 100%;
-  background: #7aad83;
+  background: var(--primary-color-darker);
+}
+
+.p-button {
+  background-color: var(--secondary-color) !important;
+  border: none;
+}
+
+.p-togglebutton {
+  padding: 0.3rem;
+}
+
+.p-togglebutton .pi {
+  color: white !important;
 }

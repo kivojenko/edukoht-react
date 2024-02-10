@@ -10,6 +10,10 @@ import './assets/similarRecipes.css'
 import { NotFound } from "./pages/NotFound"
 import { Recipe } from "./pages/Recipe";
 import "primereact/resources/themes/lara-light-indigo/theme.css";
+import { atom } from "jotai";
+
+
+export const favoritesAtom = atom(JSON.parse(localStorage.getItem("favorites") ?? "[]"));
 
 function App() {
 

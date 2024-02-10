@@ -1,5 +1,6 @@
 .p-tabmenu-nav, .p-tabmenuitem, .p-menuitem-link {
-    background: #A8DEB2 !important;
+    background: var(--primary-color) !important;
+    align-items: center;
   }
 .p-menuitem-text, .p-menuitem-icon {
     color: black;

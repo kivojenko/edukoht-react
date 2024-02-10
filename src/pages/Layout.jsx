@@ -5,9 +5,9 @@ import { Button } from 'primereact/button';
 export function Layout() {
 
     const mainButtonOnClick = () => {
-        alert("Вы успешно нажали на кнопку!")
+        alert("Вы успешно подписались на наши уведомления!")
     };
-    const mainButton = <Button label="Click me" onClick={mainButtonOnClick} />;
+    const mainButton = <Button label="Subscribe" onClick={mainButtonOnClick} />;
 
 
     const items = [

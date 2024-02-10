@@ -8,9 +8,9 @@ export function RecipeTime(props) {
     ];
 
     const itemTemplate = (product) => (
-        <div className="productItem">
+        <div className="timeItem">
             <p>{product.key}</p>
-            <p>{product.value}</p>
+            <b>{product.value}</b>
         </div>
     )
 

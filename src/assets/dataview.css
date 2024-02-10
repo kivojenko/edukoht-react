@@ -1,15 +1,48 @@
 .p-dataview img {
-    width: 13rem;
+    width: -webkit-fill-available;
+    border-radius: 1rem;
+}
+.p-grid {
+    justify-content: center;
 }
 .p-dataview .productItem {
     margin: 1rem;
-    width: 13rem;
+    padding: 1rem;
+    width: 15rem;
     cursor: pointer;
     border: none;
+    border-radius: 1rem;
+}
+.p-dataview .productItem:hover {
+    background-color: var(--hover-color);
+}
+.p-dataview .productItem:focus {
+    box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px var(--focus-color), 0 1px 2px 0 black;
+}
+.p-dataview .productItem:active {
+    box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px var(--focus-color), 0 1px 2px 0 black;
 }
 .p-dataview p {
     text-wrap: wrap;
 }
 .p-tag {
-    margin-top: 1rem;
+    min-height: 2rem !important;
+}
+.p-togglebutton {
+    max-height: 2rem !important;
+}
+.p-dataview .timeItem {
+    margin: 1rem;
+    width: 13rem;
+    border: dashed 3px var(--secondary-color);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.p-rating, .rating-skeletom {
+    justify-content: space-around;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.p-button:focus {
+    box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px var(--focus-color), 0 1px 2px 0 black !important;
 }

@@ -3,4 +3,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  --primary-color: #A8DEB2;
+  --secondary-color: #105082;
+  --primary-color-darker: #7aad83;
+
+  --hover-color: #ebebeb;
+  --focus-color: #9fcff5;
 }
