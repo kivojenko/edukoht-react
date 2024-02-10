@@ -5,6 +5,7 @@ import { SimilarRecipes } from "../components/SimilarRecipes";
 import { AnalyzedInstructions } from "../components/AnalyzedInstructions";
 import { products } from "../assets/products";
 import { ExtendedIngredients } from "../components/ExtendedIngredients";
+import { RecipeTime } from "../components/RecipeTime";
 
 export function Recipe() {
 
@@ -23,6 +24,7 @@ export function Recipe() {
     return recipe ? (
     <>
     <h1>{recipe.title}</h1>
+    <RecipeTime recipe={recipe}/>
     <ExtendedIngredients extendedIngredients={recipe.extendedIngredients}/>
     <img src={recipe.image} alt=""/>
     <hr />
