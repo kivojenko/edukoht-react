@@ -7,12 +7,12 @@ import { RecipeDisplay } from '../components/RecipeDisplay';
 
 export function Home() {
 
-    const [products, setProducts] = useState([]);
+    // const [products, setProducts] = useState([]);
 
-    useEffect(() => {
-        axios.get("https://api.spoonacular.com/recipes/random?number=36&apiKey=a768f177d0a44a14b9c4b7c61a8fbafa")
-        .then((res) => setProducts(res.data));
-    }, [])
+    // useEffect(() => {
+    //     axios.get("https://api.spoonacular.com/recipes/random?number=36&apiKey=a768f177d0a44a14b9c4b7c61a8fbafa")
+    //     .then((res) => setProducts(res.data));
+    // }, [])
 
     return (
     <>

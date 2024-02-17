@@ -5,6 +5,9 @@
 .p-grid {
     justify-content: center;
 }
+.p-timeline-event-opposite {
+    width: 0
+}
 .p-dataview .productItem {
     margin: 1rem;
     padding: 1rem;

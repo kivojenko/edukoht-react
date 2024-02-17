@@ -11,6 +11,7 @@ import { NotFound } from "./pages/NotFound"
 import { Recipe } from "./pages/Recipe";
 import "primereact/resources/themes/lara-light-indigo/theme.css";
 import { atom } from "jotai";
+import { AboutUs } from "./pages/AboutUs";
 
 
 export const favoritesAtom = atom(JSON.parse(localStorage.getItem("favorites") ?? "[]"));
@@ -24,6 +25,7 @@ function App() {
         <Route path="/" element={<Layout/>}>
           <Route index element={<Home />} />
           <Route path="favorites" element={<Favorites />} />
+          <Route path="about" element={<AboutUs/>} />
           <Route path="recipe" element={<Recipe />} />
           <Route path="*" element={<NotFound />} />
         </Route>

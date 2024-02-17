@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import { TabMenu } from 'primereact/tabmenu';
 import { Button } from 'primereact/button';
+import { InputText } from "primereact/inputtext";
 
 export function Layout() {
 
@@ -18,6 +19,8 @@ export function Layout() {
         {template: mainButton}
     ];
 
+    
+
     return (
         <>
             <TabMenu model={items} />
@@ -25,7 +28,13 @@ export function Layout() {
                 <Outlet/>
             </div>
             <footer>
-                <h5>Made by Ksusa with love</h5>
+                <div style={{display: "flex", justifyContent:"space-between", padding: "1rem"}}>
+                    <h5>Made by Ksusa with love</h5>
+                    <div className="p-inputgroup" style={{width: "auto"}}>
+                        <InputText placeholder="Sign up for our newsletter!" />
+                        <Button  icon="pi pi-check" label="Sign up!" />
+                    </div>
+                </div>
             </footer>
         </>
     )
